@@ -1,0 +1,101 @@
+#########################################################
+
+Enter the GSM error code: 0x8
+Enter the MAIN error code: 0x8
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x8
+Enter the MAIN error code: 0xc
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x0
+Enter the MAIN error code: 0x8
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x0
+Enter the MAIN error code: 0xc
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x0
+Enter the MAIN error code: 0x1e
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+MAIN                 ==> gsmUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x8
+Enter the MAIN error code: 0x8
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x2000
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> plcUsb                                            
+
+UNKNOWN              ==> liveSend                                          
+
+#########################################################
+
+Enter the GSM error code: 0xc
+Enter the MAIN error code: 0xc
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+GSM                  ==> at+cipsend                                        
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x4
+Enter the MAIN error code: 0xc
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+GSM                  ==> at+cipsend                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x8
+Enter the MAIN error code: 0x9 
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x0
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> boot                                              
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+Enter the GSM error code: 0x0
+Enter the MAIN error code: 0x8
+Enter the TIME error code: 0x0
+Enter the UNKNOWN error code: 0x2000
+MAIN                 ==> plcUsb                                            
+
+UNKNOWN              ==> liveSend                                          
+
+#########################################################
+

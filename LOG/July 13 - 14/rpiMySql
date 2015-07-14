@@ -1,0 +1,9 @@
+mysql> select count(*) from backfill;
++----------+
+| count(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.01 sec)
+
+mysql> 
