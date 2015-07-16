@@ -1,0 +1,200 @@
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0x8
+TIME error code: 0x0
+error code: 0x0
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0xa
+TIME error code: 0x0
+error code: 0x0
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0x0
+MAIN error code: 0x8
+TIME error code: 0x0
+error code: 0x0
+
+
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0x0
+MAIN error code: 0xc
+TIME error code: 0x4
+error code: 0x0
+
+
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipsend                                        
+
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0xc
+TIME error code: 0x4
+error code: 0x0
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipsend                                        
+
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0x8
+TIME error code: 0x0
+error code: 0x2000
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> plcUsb                                            
+
+UNKNOWN              ==> liveSend                                          
+
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0xe
+TIME error code: 0x4
+error code: 0x0
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipsend                                        
+
+#########################################################
+
+GSM error code: 0x40c
+MAIN error code: 0xe
+TIME error code: 0x6
+error code: 0x2
+
+
+GSM                  ==> at+cipsend                                        
+GSM                  ==> cipclose=1                                        
+GSM                  ==> at+cifsr                                          
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipstart="TCP","52.74.229.218","5000"          
+TIMEOUT              ==> at+cipsend                                        
+
+UNKNOWN              ==> at+cipstart="TCP","52.74.229.218","5000"          
+
+#########################################################
+
+GSM error code: 0xc
+MAIN error code: 0xe
+TIME error code: 0x6
+error code: 0x2
+
+
+GSM                  ==> at+cipsend                                        
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipstart="TCP","52.74.229.218","5000"          
+TIMEOUT              ==> at+cipsend                                        
+
+UNKNOWN              ==> at+cipstart="TCP","52.74.229.218","5000"          
+
+#########################################################
+
+GSM error code: 0xa
+MAIN error code: 0xe
+TIME error code: 0x0
+error code: 0x0
+
+
+GSM                  ==> at+cipstart="TCP","52.74.229.218","5000"          
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0xc
+MAIN error code: 0xc
+TIME error code: 0x4
+error code: 0x0
+
+
+GSM                  ==> at+cipsend                                        
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+TIMEOUT              ==> at+cipsend                                        
+
+#########################################################
+
+GSM error code: 0x8
+MAIN error code: 0x9
+TIME error code: 0x0
+error code: 0x0
+
+
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> boot                                              
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0xc
+MAIN error code: 0xc
+TIME error code: 0x0
+error code: 0x0
+
+
+GSM                  ==> at+cipsend                                        
+GSM                  ==> cipclose=1                                        
+MAIN                 ==> liveSend                                          
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0x0
+MAIN error code: 0xa
+TIME error code: 0x0
+error code: 0x0
+
+
+MAIN                 ==> gsmInit                                           
+MAIN                 ==> plcUsb                                            
+
+#########################################################
+
+GSM error code: 0x0
+MAIN error code: 0x8
+TIME error code: 0x0
+error code: 0x2000
+
+
+MAIN                 ==> plcUsb                                            
+
+UNKNOWN              ==> liveSend                                          
+
+#########################################################
+
